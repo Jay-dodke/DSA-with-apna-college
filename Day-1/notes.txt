@@ -1,0 +1,87 @@
+Day 1 Notes — Flowchart & Pseudocode
+------------------------------------
+
+🧠 What I learned today:
+Today I learned how to think like a programmer.
+Before writing code, we must understand the logic clearly.
+
+-------------------------------------------------------------
+📌 Flowchart (Simple Meaning)
+A flowchart is a map of our code.
+It uses shapes and arrows to show:
+➡ where we start
+➡ what steps we do
+➡ where we check a condition (YES/NO)
+➡ when we stop
+
+It helps us SEE the solution before coding.
+
+-------------------------------------------------------------
+📌 Pseudocode (Simple Meaning)
+Pseudocode is like writing code in English.
+It is not real code.
+It is instructions for what the program should do.
+
+Example pseudocode steps:
+1. Start
+2. Input number
+3. Add number to sum
+4. Print the sum
+5. Stop
+
+When pseudocode is clear,
+code becomes super easy to write.
+
+-------------------------------------------------------------
+📌 Problems I solved today:
+
+1️⃣ **Max of 3 Numbers**
+- Take 3 numbers a, b, c
+- Check:
+   → If a > b:
+        → if a > c → a is max
+        → else → c is max
+   → Else:
+        → if b > c → b is max
+        → else → c is max
+
+👁‍🗨 Idea: Compare numbers step by step instead of together.
+
+-------------------------------------------------------------
+
+2️⃣ **Sum of first N natural numbers**
+- Set total = 0
+- Start val from 1
+- Keep adding val to total until val = n
+- Increase val each step
+
+Example: n=5  
+1 + 2 + 3 + 4 + 5 = 15
+
+👁‍🗨 Idea: Loop repeats the same action until condition ends.
+
+-------------------------------------------------------------
+
+3️⃣ **Find if a number is Prime**
+- A prime number has only 2 factors: 1 and itself
+- Start checking divisors from 2
+- If any number divides n perfectly → NOT prime
+- If none divide → PRIME
+
+Example:  
+6 → divisible by 2 → not prime  
+5 → divisible by none → prime
+
+👁‍🗨 Idea: Stop early if we find a divisor.
+
+-------------------------------------------------------------
+
+🎯 My Understanding Today
+✔ Logic comes before coding  
+✔ Coding is easy when logic is clear  
+✔ Flowchart + pseudocode = brain preparation  
+✔ Every programmer follows these steps mentally
+
+
+📍 End of Day 1
+Feeling confident and excited for Day 2 
