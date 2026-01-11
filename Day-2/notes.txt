@@ -1,0 +1,197 @@
+📅 DAY 2 — JAVA BASICS (SUPER NOTES)
+Date: 11 January 2026
+Source: Apna College — Shraddha Khapra
+
+──────────────────────────────────────────────
+🌟 WHY TODAY WAS IMPORTANT
+Today I learned the real foundation of Java.
+Now I understand:
+1) How Java prints output
+2) How data is stored in memory
+3) How input comes from keyboard
+4) How Java decides which data type to use
+
+These basics are the building blocks of every future topic.
+
+──────────────────────────────────────────────
+🖨 OUTPUT IN JAVA (print & println)
+
+Java gives 2 ways to show output:
+• print()  → prints text, stays on same line
+• println() → prints text, then moves to next line
+
+Example:
+System.out.print("Hello");
+System.out.println("World");
+
+Special characters:
+• \n → newline
+• \t → tab
+
+──────────────────────────────────────────────
+🔤 VARIABLES, IDENTIFIERS & LITERALS
+
+A **variable** is a container that stores data.
+Example:
+int age = 18;
+
+age → identifier (name of the container)
+18 → literal (actual value)
+int → data type (what kind of data)
+
+Rules for identifiers:
+✔ Must start with letter or _
+✔ Cannot start with a number
+✔ Cannot use Java keywords (int, class, static, etc.)
+✔ Should be meaningful (not x1, but age)
+
+──────────────────────────────────────────────
+📚 DATA TYPES (VERY IMPORTANT)
+
+Java has **two categories of data**
+
+1️⃣ **Primitive Types** (fixed size)
+Used for simple values:
+- byte    (1 byte)
+- short   (2 bytes)
+- char    (2 bytes)
+- boolean (1 byte)
+- int     (4 bytes)
+- long    (8 bytes)
+- float   (4 bytes)
+- double  (8 bytes)
+
+Notes:
+✔ int is default for numbers
+✔ double is default for decimal values
+✔ float needs `f` at end → 9.8f
+✔ char stores one character → 'A'
+
+2️⃣ **Non-Primitive Types**
+Used for bigger/more complex data:
+- String
+- Array
+- Class
+- Object
+- Interface
+
+They:
+✔ Don’t have fixed size
+✔ Can grow bigger
+✔ Store references, not actual values
+
+──────────────────────────────────────────────
+📦 MEMORY CONCEPT (HOW DATA LIVES)
+
+When we write:
+int a = 10;
+int b = 5;
+int sum = a + b;
+
+Memory makes three boxes:
+a → 10
+b → 5
+sum → 15
+
+This helps us think like a computer.
+
+──────────────────────────────────────────────
+⌨️ TAKING INPUT — SCANNER CLASS
+
+Scanner sc = new Scanner(System.in);
+
+Use:
+int a = sc.nextInt();
+float price = sc.nextFloat();
+String name = sc.nextLine();
+
+IMPORTANT:
+Always import Scanner at top:
+import java.util.Scanner;
+
+──────────────────────────────────────────────
+💻 PROGRAMS PRACTICED TODAY
+
+1️⃣ Sum of two numbers
+a + b
+
+2️⃣ Product of two numbers
+a * b
+
+3️⃣ Area of Circle
+π r² (use 3.14 * r * r)
+
+These programs connect theory → coding
+
+──────────────────────────────────────────────
+🔁 TYPE CONVERSION (WIDENING)
+
+Java automatically converts smaller types to bigger types.
+
+Order:
+byte → short → int → long → float → double
+
+Conditions:
+✔ Types must be compatible
+✔ Destination must be larger
+
+Example:
+int x = 10;
+float y = x;  // OK
+
+NO data loss
+
+──────────────────────────────────────────────
+⬆️ TYPE PROMOTION (IN EXPRESSIONS)
+
+In mathematical expressions:
+- byte, short, char are promoted to int
+- If long or float or double is present,
+  → result becomes that type
+
+Example:
+byte a = 2;
+byte b = 3;
+int c = a * b;    // NOT byte
+
+Example 2:
+int x = 5;
+double y = 2.5;
+double result = x + y; // becomes double
+
+──────────────────────────────────────────────
+⚙ HOW JAVA CODE RUNS INTERNALLY
+
+Steps:
+1) You write `.java` file
+2) Compiler converts it to `.class` (bytecode)
+3) JVM executes bytecode on your machine
+
+Components:
+✔ JDK = JRE + Compiler + Tools
+✔ JRE = JVM + Core Libraries
+✔ JVM = Responsible for running bytecode
+
+──────────────────────────────────────────────
+📌 SUMMARY OF DAY 2
+Today I learned:
+✔ How to print & take input
+✔ How variables work
+✔ Why data types matter
+✔ How memory stores values
+✔ Basics of math programs
+✔ Type conversion & type promotion
+✔ Internal Java execution
+
+Now I can:
+✔ Write simple programs confidently
+✔ Read and understand code better
+✔ Choose correct data type
+
+──────────────────────────────────────────────
+
+🎯 NEXT GOAL (DAY 3)
+Start:
+✨ Conditionals (if-else)
+✨ Comparison operators
+✨ Logical thinking for branching
