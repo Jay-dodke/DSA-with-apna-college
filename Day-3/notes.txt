@@ -1,0 +1,22 @@
+DAY — Health/Backlog Day
+Date: 12 January 2026
+
+No new Java topic studied today because of health and rest.
+
+Important notes to remember:
+• One missed day doesn't break consistency
+• Returning next day is true discipline
+• Health comes before code
+• Tomorrow I will complete Day-3 and Day-4 together
+
+Plan for tomorrow:
+1) Conditionals (if/else)
+2) Comparison & logical operators
+3) Loop basics (while, for, do-while)
+4) Write and practice programs
+5) Add notes + README + commit + push
+
+Motivation:
+“The harder you work, the luckier you get.”
+“Slow progress is still progress.”
+“Comeback > Perfect streak.”
